@@ -6,35 +6,35 @@ Submitted by: Rodney Vance <!-- Replace 'Your Name Here' with your actual name -
 
 **Tap Counter App** is an Android app inspired by idle tap games, allowing users to accumulate points through taps, which can be exchanged for upgrades.
 
-Time spent: **X** hours spent in total <!-- Replace 'X' with the number of hours you spent on this project -->
+Time spent: **3** hours spent in total <!-- Replace 'X' with the number of hours you spent on this project -->
 
 ## Application Features
-
+THE EVERYTHING GIF [https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG14bjBtNjE3a2RjcTc3YjhoYmE2ZTF3cHZ4N3h5cjNwNXY1N2tiOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U9MeifT0Zu29hM1yto/giphy.gif]
 ### Required Features
 
 The following **required** functionality is completed:
 
-- [ DONE] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**  
+- [x] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**  
   - ![Image/GIF showing the initial display of the number](https://imgur.com/a/oy0FZrI) <!-- Replace this link with your actual image/GIF link -->
 
-- [DONE ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**  
+- [x] (2 pts) **User can tap on a button to see the number displayed increase by 1.**  
   - ![Image/GIF showing the number increase on button tap](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ### Stretch Features
 
 The following **stretch** functionality is implemented:
 
-- [ DONE] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
+- [x] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
   - X taps for an upgrade that makes each tap count as 2 taps. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
     - ![Image/GIF showing the upgrade process](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-- [ DONE] (2 pts) **User can exchange taps for a custom icon button.**  
+- [x] (2 pts) **User can exchange taps for a custom icon button.**  
   - X taps for a custom icon button. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
     - ![Image/GIF showing the icon button customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-- [DONE ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**  
+- [x] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**  
   - ![Image/GIF showing theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 - [ ] (+2 bonus pts) **User has progressively difficult goals to reach in terms of the number of taps accumulated.**  
@@ -44,7 +44,8 @@ The following **stretch** functionality is implemented:
 
 ## Notes
 
-Mostly just figuring out how to add a image to the imageButton/button and deciding which one to use. 
+Mostly just figuring out how to add a image to the imageButton/button and deciding which one to use.
+And fixing the emulator, downloading proper files to support 
 
 
 ## Resources
