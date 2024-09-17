@@ -1,60 +1,51 @@
-# Lab 1: Tap Counter App
 
-Course Link: [CodePath Android Course](https://courses.codepath.org/courses/and102/unit/1#!labs)
+# Android Project 1 - *Wordle*
 
-Submitted by: Rodney Vance <!-- Replace 'Your Name Here' with your actual name -->
+Submitted by: **Rodney Vance**
 
-**Tap Counter App** is an Android app inspired by idle tap games, allowing users to accumulate points through taps, which can be exchanged for upgrades.
+**Name of your app** is an android app that recreates a simple version of the popular word game [Wordle](https://www.nytimes.com/games/wordle/index.html). 
 
-Time spent: **X** hours spent in total <!-- Replace 'X' with the number of hours you spent on this project -->
+Time spent: **2** hours spent in total
 
-## Application Features
-
-### Required Features
+## Required Features
 
 The following **required** functionality is completed:
 
-- [ DONE] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**  
-  - ![Image/GIF showing the initial display of the number](https://imgur.com/a/oy0FZrI) <!-- Replace this link with your actual image/GIF link -->
+- [x] **User has 3 chances to guess a random 4 letter word**
+- [x] **After 3 guesses, user should no longer be able to submit another guess**
+- [x] **After each guess, user sees the "correctness" of the guess**
+- [x] **After all guesses are taken, user can see the target word displayed**
 
-- [DONE ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**  
-  - ![Image/GIF showing the number increase on button tap](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+The following **optional** features are implemented:
 
-### Stretch Features
+- [ ] User can toggle betweeen different word lists
+- [ ] User can see the 'correctness' of their guess through colors on the word 
+- [ ] User sees a visual change after guessing the correct word
+- [ ] User can tap a 'Reset' button to get a new word and clear previous guesses
+- [ ] User will get an error message if they input an invalid guess
+- [ ] User can see a 'streak' record of how many words they've guessed correctly.
 
-The following **stretch** functionality is implemented:
+The following **additional** features are implemented:
 
-- [ DONE] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
-  - X taps for an upgrade that makes each tap count as 2 taps. (Default: 100 taps)
-    - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    - ![Image/GIF showing the upgrade process](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+* [ ] List anything else that you can get done to improve the app functionality!
 
-- [ DONE] (2 pts) **User can exchange taps for a custom icon button.**  
-  - X taps for a custom icon button. (Default: 100 taps)
-    - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    - ![Image/GIF showing the icon button customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+## Video Walkthrough
 
-- [DONE ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**  
-  - ![Image/GIF showing theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+Here's a walkthrough of implemented user stories:
 
-- [ ] (+2 bonus pts) **User has progressively difficult goals to reach in terms of the number of taps accumulated.**  
-  - Display each goal on the screen, and track the total number of goals reached.
-  - Use a Toast to notify of a reached goal.
-  - ![Image/GIF showing goals and progress](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+<img src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGhidXpoczNvdDgyMnZqMWlwNGVuN2V5bWtrODc3dThzYmV4bWZqOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wze33EsDwOkUBQ4eTi/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+GIF created with ...  
+<!-- giphy.com -->
 
 ## Notes
 
-Mostly just figuring out how to add a image to the imageButton/button and deciding which one to use. 
-
-
-## Resources
-
-- [ConstraintLayout documentation](https://developer.android.com/training/constraint-layout)
-- [Displaying Toasts](https://guides.codepath.com/android/Displaying-Toasts)
+Setting up the layout was probably the hardest part.
+The logic was explained pretty well to translate to cdode 
 
 ## License
 
-```plaintext
     Copyright [2024] [Rodney Vance]
 
     Licensed under the Apache License, Version 2.0 (the "License");
