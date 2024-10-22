@@ -1,8 +1,8 @@
-# Android Project 4 - *Name of App Here*
+# Android Project 4 - *Flixer2*
 
 Submitted by: **Rodney Vance**
 
-**Name of your app** is a movie browsing app that allows users to browse ... [TODO] 
+**Flixer2** is a movie browsing app that allows users to browse ... [TODO] 
 
 Time spent: **1** hours spent in total
 
@@ -41,11 +41,10 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+Making the details page and the intent
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Rodney Vance]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
