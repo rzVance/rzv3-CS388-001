@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TotalsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constFrameDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/total_food_amount_label"
+            android:layout_width="325dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="16dp"
+            android:text="Total Calories:"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.663"
+            app:layout_constraintStart_toStartOf="@+id/constFrameDashboard"
+            app:layout_constraintTop_toTopOf="@+id/constFrameDashboard"
+            app:layout_constraintVertical_bias="0.322" />
+
+        <TextView
+            android:id="@+id/total_food_amount_value"
+            android:layout_width="260dp"
+            android:layout_height="63dp"
+            android:text="0 cal"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/total_food_amount_label" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
